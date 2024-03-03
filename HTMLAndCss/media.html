@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 100px;
+        }
+        .image-div{
+            width: 35%;
+            margin-top: 1px;
+        }
+        img{
+            width: 80px;
+            height:80px;
+        }input{
+            width: 100px;
+            border: none;
+        }
+        .input-div{
+            width: 75%;
+        }
+        .image-div1{
+            display: none;
+        }
+
+    </style>
+</head>
+<body style="margin: top 1px;">
+    <div class="container">
+        <div class="image-div">
+            <img src="data:image/jpeg;base64,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" alt="">
+        </div>
+        <div class="input-div">
+            <input type="text" placeholder="search">
+        </div>
+        <div class="image-div" onclick="image()">
+            <img src="https://th.bing.com/th/id/OIP.l7_jT682jN3FYxMAhpcIJAAAAA?w=171&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+        </div>
+    </div>
+        <div class="image-div1" onclick="myfunction()" >
+            <img src="data:image/jpeg;base64,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" alt="">
+        </div>
+
+    
+    <script>
+        let divbox=document.getElementsByClassName("container")
+        let imagesbox=document.getElementsByClassName("image-div1")
+        
+        function myfunction(){
+            divbox[0].style.display="flex"
+
+            imagesbox[0].style.display="none"
+        }
+        function image(){
+            imagesbox[0].style.display="block"
+            divbox[0].style.display="none"
+        }
+    </script>
+</body>
+</html>

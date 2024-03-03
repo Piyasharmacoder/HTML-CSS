@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container {
+            border:1px solid red;
+            width: 95%;
+            display: flex;
+            flex-direction:column;
+            justify-content:space-evenly;
+        }
+
+        .main-container>div{
+            display: flex;
+            border:1px solid blue;
+        }
+
+        .offer {
+            border: 1px solid blue;
+            width: 15%;
+        }
+
+        .offer>h3 {
+            margin-left: 15px;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        img{
+            width: 60%;
+            height: 90%;
+        }
+
+        .main-card {
+            width:15%;
+            border: 2px solid rebeccapurple;
+        }
+        .main-card>div{
+            width:95%;
+            border: 1px solid teal;
+            height:48%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="offer">
+            <h2>Today,s Deals</h1>
+                <h3><a href="">see all the deals</a></h1>
+        </div>
+        <div class="container">
+            <div class="main-card ">
+                <div>
+                    <img src="https://m.media-amazon.com/images/I/517TmhKEWbL._AC_SY200_.jpg" alt="">
+                </div>
+                <div>
+                    <span style="background-color: #9f082b; color:#fff; font-size: 20px ; border-radius: ;"> UP to 79% off </span>
+                    <span style="color: #710720;"> Deal of the  Day </span>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

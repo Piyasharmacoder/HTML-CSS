@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+        }
+        img{
+            width: 30px;
+            height: 20px;
+        }
+        .part-1{
+            display: flex;
+            border: 1px solid blue;
+            justify-content:space-around;
+            width: 20%;
+        }
+        .berry-box{
+            display: flex;
+            width: 45%;
+            justify-content: space-evenly;
+            border: 1px solid black;
+        }
+        .part-2{
+            display: flex;
+            width: 75%;
+            border: 1px solid purple;
+            justify-content: space-between;
+        }
+        .search-box{
+            display: flex;
+            border: 1px solid teal;
+            width: 40%;
+            justify-content: space-evenly;
+        }
+        .profile{
+            width: 20%;
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .profile-1{
+            display: flex;
+            width: 40%;
+            justify-content: space-around;
+            border: 1px solid blue;
+        }
+        .profile-1:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div class="part-1">
+            <div class="berry-box">
+                <div>
+                    <img src="https://th.bing.com/th?id=OIP.uNrcUCorct3pgf_5OWpyHgHaHZ&w=250&h=249&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+                </div>
+                <div>
+                    <h1>BERRY</h1>
+                </div>
+            </div>
+            <div>
+                <div class="menu-bar">
+                    <img src="https://th.bing.com/th/id/OIP.Tghvlt1zrMOw0nDRoruMKQHaHa?w=205&h=205&c=7&r=0&o=5&pid=1.7" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="part-2">
+            <div class="search-box">
+                    <div>
+                        <img src="https://th.bing.com/th/id/OIP.R3R-XRGsD_HptDoSkRCofAHaHa?w=192&h=192&c=7&r=0&o=5&pid=1.7" alt="">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="search">
+                    </div>
+                    <div >
+                        <img src="https://th.bing.com/th/id/OIP.Tghvlt1zrMOw0nDRoruMKQHaHa?w=205&h=205&c=7&r=0&o=5&pid=1.7" alt="">
+                    </div>
+            </div>
+            <div class="profile">
+                <div>
+                    <img src="https://th.bing.com/th?id=OIP.kBfQwPkvTLWrDstqg0dTeAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+                </div>
+                <div class="profile-1">
+                    <div>
+                        <img src="https://th.bing.com/th?id=OIP.i_bpSvfG5T2Ekf3xGuqQMwHaH_&w=240&h=259&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+                    </div>
+                    <div>
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
