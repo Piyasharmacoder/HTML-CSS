@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.main-div{
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://getwallpapers.com/wallpaper/full/0/3/4/303174.jpg) center; 
+    background-size: cover;
+
+}
+.main-div>h1{
+    text-align: center;
+    padding: 25px 0px ;
+}
+.container-div{
+    width: 1170px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+.item-section{
+    border: 1px solid pink;
+    width: 450;
+}
+.img-div{
+    width: 300px;
+   border: 1px solid red;
+   text-align: center;
+   margin-top: 5px;
+   margin: 10px;
+
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.content-section{
+    border: 1px solid blue;
+    width: 150;
+}

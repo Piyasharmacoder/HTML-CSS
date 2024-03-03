@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.Training-section{
+    width: 100%;
+    min-height: 100vh;
+    background: url("https://media.istockphoto.com/id/643950674/photo/education-background.webp?b=1&s=170667a&w=0&k=20&c=AsRevu0ZOEI7JNlI9iLK66-BYMsjfE0wPla6jx4s2E4=");
+    background-size: cover;
+} 
+
+.Training-section>h1{
+    text-align: center;
+    padding: 25px 0px ;
+    font-family: sans-serif;
+}
+.container-div{
+    width: 1170px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Training-items{
+    flex-basis: 22%;
+    
+}
+
+
+
+
+
+
+ 
+/* #clockInner.marking {
+    background: #bdbdcb;
+    width: 3px;
+}
+
+#clockInner.marking.marking-one {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    transform: rotate(30deg);
+
+}
+
+#clockInner.marking.marking-two {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+
+#clockInner.marking.marking-three {
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+#clockInner.marking.marking-four {
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    transform: rotate(150deg);
+}  */
